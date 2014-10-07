@@ -1,0 +1,39 @@
+libcoregrind_x86_darwin_a-m_vkiscnums.o: m_vkiscnums.c pub_core_basics.h \
+  ../include/pub_tool_basics.h ../VEX/pub/libvex_basictypes.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/6.0/include/stdarg.h \
+  ../VEX/pub/libvex.h ../VEX/pub/libvex_ir.h \
+  ../VEX/pub/libvex_guest_x86.h pub_core_libcprint.h \
+  ../include/pub_tool_libcprint.h pub_core_vkiscnums.h \
+  pub_core_vkiscnums_asm.h ../include/pub_tool_vkiscnums_asm.h \
+  ../include/vki/vki-scnums-darwin.h ../config.h \
+  ../include/pub_tool_vkiscnums.h
+
+pub_core_basics.h:
+
+../include/pub_tool_basics.h:
+
+../VEX/pub/libvex_basictypes.h:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/6.0/include/stdarg.h:
+
+../VEX/pub/libvex.h:
+
+../VEX/pub/libvex_ir.h:
+
+../VEX/pub/libvex_guest_x86.h:
+
+pub_core_libcprint.h:
+
+../include/pub_tool_libcprint.h:
+
+pub_core_vkiscnums.h:
+
+pub_core_vkiscnums_asm.h:
+
+../include/pub_tool_vkiscnums_asm.h:
+
+../include/vki/vki-scnums-darwin.h:
+
+../config.h:
+
+../include/pub_tool_vkiscnums.h:

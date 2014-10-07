@@ -1,0 +1,31 @@
+libcoregrind_amd64_darwin_a-m_libcbase.o: m_libcbase.c pub_core_basics.h \
+  ../include/pub_tool_basics.h ../VEX/pub/libvex_basictypes.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/6.0/include/stdarg.h \
+  ../VEX/pub/libvex.h ../VEX/pub/libvex_ir.h \
+  ../VEX/pub/libvex_guest_amd64.h pub_core_libcassert.h \
+  ../include/pub_tool_libcassert.h pub_core_debuglog.h \
+  pub_core_libcbase.h ../include/pub_tool_libcbase.h
+
+pub_core_basics.h:
+
+../include/pub_tool_basics.h:
+
+../VEX/pub/libvex_basictypes.h:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/6.0/include/stdarg.h:
+
+../VEX/pub/libvex.h:
+
+../VEX/pub/libvex_ir.h:
+
+../VEX/pub/libvex_guest_amd64.h:
+
+pub_core_libcassert.h:
+
+../include/pub_tool_libcassert.h:
+
+pub_core_debuglog.h:
+
+pub_core_libcbase.h:
+
+../include/pub_tool_libcbase.h:

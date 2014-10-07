@@ -1,0 +1,39 @@
+libcoregrind_amd64_darwin_a-m_rangemap.o: m_rangemap.c pub_core_basics.h \
+  ../include/pub_tool_basics.h ../VEX/pub/libvex_basictypes.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/6.0/include/stdarg.h \
+  ../VEX/pub/libvex.h ../VEX/pub/libvex_ir.h \
+  ../VEX/pub/libvex_guest_amd64.h pub_core_libcassert.h \
+  ../include/pub_tool_libcassert.h pub_core_libcprint.h \
+  ../include/pub_tool_libcprint.h pub_core_xarray.h \
+  ../include/pub_tool_xarray.h pub_core_rangemap.h \
+  ../include/pub_tool_rangemap.h
+
+pub_core_basics.h:
+
+../include/pub_tool_basics.h:
+
+../VEX/pub/libvex_basictypes.h:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/6.0/include/stdarg.h:
+
+../VEX/pub/libvex.h:
+
+../VEX/pub/libvex_ir.h:
+
+../VEX/pub/libvex_guest_amd64.h:
+
+pub_core_libcassert.h:
+
+../include/pub_tool_libcassert.h:
+
+pub_core_libcprint.h:
+
+../include/pub_tool_libcprint.h:
+
+pub_core_xarray.h:
+
+../include/pub_tool_xarray.h:
+
+pub_core_rangemap.h:
+
+../include/pub_tool_rangemap.h:
