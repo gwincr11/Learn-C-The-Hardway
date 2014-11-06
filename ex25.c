@@ -56,7 +56,9 @@ int read_scan(const char *fmt, ...) {
           sentinel("Invalid format, you ended with %%.");
           break;
         case 'd':
+          //read the first ... argument from the array and set it to out_int
           out_int = va_arg(argp, int *);
+          //pass out int by reference to the read int function
           rc = read_int(out_int);
           check(rc == 0, "Failed to read int.");
           break;
@@ -94,6 +96,7 @@ int main(int argc, char *argv[]) {
   int age = 0;
 
   printf("What is your first name? ");
+  //pass in a pointer to first name alal &first_name
   int rc = read_scan("%s", MAX_DATA, &first_name);
   check(rc == 0, "Failed fist name.");
 
